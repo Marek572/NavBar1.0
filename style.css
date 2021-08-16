@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2f7fda;
+}
+
+nav{
+    margin: 12vw auto;
+    height: 450px;
+    width: 105px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    background-color: #1b2845;
+}
+
+a{
+    width: 90%;
+    height: 90%;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+a:hover{
+    background-color: #65afff;
+}
+
+.icon{
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+    transition: 0.5s;
+}
+
+#home{
+    margin-top: 5px;
+    background-image: url(images/home-solid-blue.svg);
+}
+
+#home:hover{
+    background-image: url(images/home-solid-black.svg);
+}
+
+#profile{
+    background-image: url(images/user-solid-blue.svg);
+}
+
+#profile:hover{
+    background-image: url(images/user-solid-black.svg);
+}
+
+#contact{
+    background-image: url(images/comment-solid-blue.svg);
+}
+
+#contact:hover{
+    background-image: url(images/comment-solid-black.svg);
+}
+
+#adjust{
+    background-image: url(images/adjust-solid-blue.svg);
+}
+
+#adjust:hover{
+    background-image: url(images/adjust-solid-black.svg);
+}
+
+#settings{
+    background-image: url(images/cog-solid-blue.svg);
+}
+
+#settings:hover{
+    background-image: url(images/cog-solid-black.svg);
+}
+
