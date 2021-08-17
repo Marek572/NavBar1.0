@@ -1,0 +1,6 @@
+konieczna poprawa kodu js
+usprawnienie zmiany kokloru ikon (zamiasta podmiany plikow svg -> zmiana samego koloru)
+    usprawnienie przez to kodu css z podmianka plikow
+
+
+f77f00

@@ -2,18 +2,28 @@ body{
     margin: 0;
     padding: 0;
     background-color: #2f7fda;
+    overflow-y: hidden;
+}
+
+body.orange{
+    background-color: #fcbf49;
 }
 
 nav{
-    margin: 12vw auto;
+    margin: 80px auto;
     height: 450px;
     width: 105px;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
     border-radius: 10px;
     background-color: #1b2845;
+}
+
+nav.red{
+    background-color: #d62828;
 }
 
 a{
@@ -22,23 +32,26 @@ a{
     padding: 10px 0;
     margin-bottom: 5px;
     border-radius: 10px;
-    transition: 1s;
-}
-
-a:hover{
-    background-color: #65afff;
+    transition: 0.5s;
 }
 
 .icon{
     background-repeat: no-repeat;
     background-size: 50px;
     background-position: center;
-    transition: 0.5s;
+}
+
+.icon:hover{
+    background-color: #65afff;
 }
 
 #home{
     margin-top: 5px;
     background-image: url(images/home-solid-blue.svg);
+}
+
+#home.white{
+    background-image: url(images/home-solid-white.svg);
 }
 
 #home:hover{
@@ -49,12 +62,20 @@ a:hover{
     background-image: url(images/user-solid-blue.svg);
 }
 
+#profile.white{
+    background-image: url(images/adjust-solid-white.svg);
+}
+
 #profile:hover{
     background-image: url(images/user-solid-black.svg);
 }
 
 #contact{
     background-image: url(images/comment-solid-blue.svg);
+}
+
+#contact.white{
+    background-image: url(images/comment-solid-white.svg);
 }
 
 #contact:hover{
@@ -65,12 +86,20 @@ a:hover{
     background-image: url(images/adjust-solid-blue.svg);
 }
 
+#adjust.white{
+    background-image: url(images/adjust-solid-white.svg);
+}
+
 #adjust:hover{
     background-image: url(images/adjust-solid-black.svg);
 }
 
 #settings{
     background-image: url(images/cog-solid-blue.svg);
+}
+
+#settings.white{
+    background-image: url(images/cog-solid-white.svg);
 }
 
 #settings:hover{
